@@ -4,8 +4,7 @@ let savedOrders = JSON.parse(localStorage.getItem('savedOrders')) || [];
 // Function to load medications from JSON file
 async function loadMedications() {
     try {
-        const response = await fetch('med.json'); // Ensure med.json is in the same directory
-        const data = await response.json();
+        const response = await fetch('med.json'); 
 
         Object.keys(data).forEach(category => {
             const section = document.getElementById(category.toLowerCase());
