@@ -481,9 +481,8 @@ tfoot td {
 
 /* Buttons */
 .button_add {
-  padding: 10px 15px;
-  margin-right: 10px;
-  background-color: #ffb400;
+  padding: 15px 20px; /* Increase padding */ margin: 10px; /* Add spacing */ font-size: 18px;
+  background-color: #0056b3;
   color: white;
   border: none;
   border-radius: 5px;
@@ -493,7 +492,7 @@ tfoot td {
 }
 
 .button_add:hover {
-  background-color: #e69e00;
+  background-color: #0056b3;
 }
 
 

@@ -109,7 +109,7 @@
 
 <section id="analgesics">
             <h2>Analgesics</h2>
-            <img src="./photos/med1.webp" alt="Analgesics Image">
+            <img src="./photos/med1.webp" alt="Analgesics Image" loading="lazy">
             <select id="analgesics-select">
                 <option value="Paracetamol|10">Paracetamol - $10</option>
                 <option value="Ibuprofen|15">Ibuprofen - $15</option>
@@ -120,7 +120,7 @@
                 
             </select>
             <input type="number" id="analgesics-quantity" placeholder="Quantity" min="1">
-            <button class="button_add" onclick="addItem('analgesics')">Add</button>
+            <button aria-label="submit form" class="button_add" onclick="addItem('analgesics')">Add</button>
         </section>
     
         <section id="antibiotics">
@@ -141,7 +141,7 @@
     
         <section id="antidepressants">
             <h2>Antidepressants</h2>
-            <img src="./photos/med4.jpeg" alt="Analgesics Image">
+            <img src="./photos/med4.jpeg" alt="Analgesics Image" loading="lazy">
             <select id="antidepressants-select">
                 <option value="Sertraline|20">Sertraline - $20</option>
                 <option value="Fluoxetine|25">Fluoxetine - $25</option>
@@ -152,12 +152,12 @@
               
             </select>
             <input type="number" id="antidepressants-quantity" placeholder="Quantity" min="1">
-            <button class="button_add" onclick="addItem('antidepressants')">Add</button>
+            <button aria-label="submit form" class="button_add" onclick="addItem('antidepressants')">Add</button>
         </section>
     
         <section id="antihistamines">
             <h2>Antihistamines</h2>
-            <img src="./photos/med6.jpeg" alt="Analgesics Image">
+            <img src="./photos/med6.jpeg" alt="Analgesics Image"loading="lazy">
             <select id="antihistamines-select">
                 <option value="Cetirizine|20">Cetirizine- $20</option>
                 <option value="Loratadine|25">Loratadine - $25</option>
@@ -167,12 +167,12 @@
               
             </select>
             <input type="number" id="antihistamines-quantity" placeholder="Quantity" min="1">
-            <button class="button_add" onclick="addItem('antihistamines')">Add</button>
+            <button aria-label="submit form" class="button_add" onclick="addItem('antihistamines')">Add</button>
         </section>
     
         <section id="antihypertensives">
             <h2>Antihypertensives</h2>
-              <img src="./photos/med7.webp" alt="Analgesics Image">
+              <img src="./photos/med7.webp" alt="Analgesics Image"loading="lazy">
             <select id="antihypertensives-select">
                 <option value="Lisinopril|20">Lisinopril- $20</option>
                 <option value="Amlodipine|25">Amlodipine - $25</option>
@@ -184,7 +184,7 @@
               
             </select>
             <input type="number" id="antihypertensives-quantity" placeholder="Quantity" min="1">
-            <button class="button_add" onclick="addItem('antihypertensives')">Add</button>
+            <button aria-label="submit form" class="button_add" onclick="addItem('antihypertensives')">Add</button>
         </section>
         </div>
         <h2>Order Management</h2>
@@ -211,13 +211,13 @@
         <br>
         <br>
     
-        <button onclick="saveFavourite()">Save to Favourites</button>
-        <button onclick="applyFavourite()">Apply Favourites</button>
-        <button onclick="checkout()">Buy Now</button>
-        <button onclick="clearOrder()">Clear Order</button>
+        <button aria-label="submit form" onclick="saveFavourite()">Save to Favourites</button>
+        <button aria-label="submit form" onclick="applyFavourite()">Apply Favourites</button>
+        <button aria-label="submit form" onclick="checkout()">Buy Now</button>
+        <button aria-label="submit form" onclick="clearOrder()">Clear Order</button>
     
 
-        <button onclick="saveOrder()">Save Order</button>
+        <button  aria-label="submit form"onclick="saveOrder()">Save Order</button>
         <select id="order-history" onchange="loadOrder(this.value)">
             <option value="">Select Saved Order</option>
         </select>
@@ -403,7 +403,7 @@
         <footer>
             <div class="row">
                 <div class="col">
-                    <img src="./photos/logo1.png" alt="logo-img" class="logo-img">
+                    <img src="./photos/logo1.png" alt="logo-img" class="logo-img" loading="lazy">
                     <p>Hospitality Hospital takes pride in being at the forefront of medical innovation.<br>
                         Our commitment to global standards is exemplified by our unmatched State-of-the-Art Meditec facilities,<br>
                         ensuring that you receive nothing but the best.</p>
