@@ -48,6 +48,7 @@
       </div>
          <!-- Search Bar -->
   <form class="search-bar" action="/search" method="GET">
+    <label for="search-input" class="visually-hidden">Search</label>
       <input type="text" placeholder="Search..." name="q" class="search-input">
       <button type="submit" class="search-button">
           <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32" fill="#5f6368">
@@ -119,7 +120,7 @@
                 <option value="Tramadol|23">Tramadol-23</option>
                 
             </select>
-            <input type="number" id="analgesics-quantity" placeholder="Quantity" min="1">
+            <input type="number" id="analgesics-quantity" placeholder="Quantity" min="1" title="Antihistamines Quantity">
             <button aria-label="submit form" class="button_add" onclick="addItem('analgesics')">Add</button>
         </section>
     
@@ -135,7 +136,8 @@
                 <option value="Cephalexin|20">Cephalexin-20</option>
               
             </select>
-            <input type="number" id="antibiotics-quantity" placeholder="Quantity" min="1">
+            
+            <input type="number" id="antibiotics-quantity" placeholder="Quantity" min="1" title="Antihistamines Quantity">
             <button class="button_add" onclick="addItem('antibiotics')">Add</button>
         </section>
     
@@ -151,7 +153,7 @@
                 <option value="Amitriptyline|20">Amitriptyline-20</option>
               
             </select>
-            <input type="number" id="antidepressants-quantity" placeholder="Quantity" min="1">
+            <input type="number" id="antidepressants-quantity" placeholder="Quantity" min="1" title="Antihistamines Quantity">
             <button aria-label="submit form" class="button_add" onclick="addItem('antidepressants')">Add</button>
         </section>
     
@@ -166,7 +168,7 @@
         
               
             </select>
-            <input type="number" id="antihistamines-quantity" placeholder="Quantity" min="1">
+            <input type="number" id="antihistamines-quantity" placeholder="Quantity" min="1" title="Antihistamines Quantity">
             <button aria-label="submit form" class="button_add" onclick="addItem('antihistamines')">Add</button>
         </section>
     
@@ -183,7 +185,7 @@
         
               
             </select>
-            <input type="number" id="antihypertensives-quantity" placeholder="Quantity" min="1">
+            <input type="number" id="antihypertensives-quantity" placeholder="Quantity" min="1"title="Antihistamines Quantity">
             <button aria-label="submit form" class="button_add" onclick="addItem('antihypertensives')">Add</button>
         </section>
         </div>
